@@ -15,7 +15,7 @@ jobs:
       matrix:
         dotnet_version: [ '4.7.2', '8.0' ]
         configuration: [ 'Debug', 'Release' ]
-
+        
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
